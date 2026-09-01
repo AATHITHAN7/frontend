@@ -1,0 +1,37 @@
+:root {
+  /* Base palette — deep ink case-file, not the default cream/terracotta or
+     pure-black hacker-green clichés. Navy conveys forensic/investigative
+     tone; amber/red/green are reserved strictly for risk semantics. */
+  --ink-950: #0a0e17;
+  --ink-900: #0e1420;
+  --panel-800: #121a2b;
+  --panel-700: #171f33;
+  --line-600: #24304c;
+  --line-500: #303f63;
+
+  --text-100: #eef1f8;
+  --text-300: #c4cbdc;
+  --muted-500: #8891a8;
+  --muted-600: #6b7690;
+
+  --accent-500: #5b8def;
+  --accent-400: #7ba3f5;
+
+  --critical: #ef4b5c;
+  --critical-dim: rgba(239, 75, 92, 0.14);
+  --high: #f2994a;
+  --high-dim: rgba(242, 153, 74, 0.14);
+  --medium: #e5c94f;
+  --medium-dim: rgba(229, 201, 79, 0.14);
+  --low: #3ddc84;
+  --low-dim: rgba(61, 220, 132, 0.14);
+
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", Consolas, monospace;
+
+  --radius-sm: 3px;
+  --radius-md: 6px;
+
+  --shadow-panel: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 20px 40px -24px rgba(0, 0, 0, 0.6);
+}
